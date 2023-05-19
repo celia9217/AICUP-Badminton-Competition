@@ -11,11 +11,15 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
 <table>
   <tr>
     <td>Public Grade</td>
+    <td>Public Ranking</td>
     <td>Private Grade</td>
+    <td>Private Ranking</td>
   </tr>
   <tr>
     <td>0.0548</td>
+    <td>16</td>
     <td>0.0324</td>
+    <td>17</td>
   </tr>
 </table>
 
@@ -29,3 +33,4 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
 
 - [課程簡報 - AI CUP 2023 春季賽【教電腦看羽球競賽】巡迴課程-new.pdf](https://drive.google.com/file/d/1vd_Wutf8sVeYg8_QkM3sqk7nco-xPQqT/view?usp=sharing)
 - [教電腦看羽球-baseline code](https://drive.google.com/drive/folders/18Yr3Y630aMGvlUfxQArv7rjh5jo2diUA?usp=sharing)
+- [TrackNetV2: N-in-N-out Pytorch version (GitLab)](https://nol.cs.nctu.edu.tw:234/lukelin/TrackNetV2_pytorch.git)
