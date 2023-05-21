@@ -1,4 +1,6 @@
-# Badminton-Competition (TEAM_3379)
+# Badminton-Competition 
+
+## TEAM_3379
 
 ## Introduction
 Global statistics indicate that there are approximately 2.2 billion badminton players worldwide, with over 3 million in Taiwan alone. Badminton ranks second in terms of national popularity. Recently, badminton players have been achieving remarkable performances in international competitions, attracting increased public attention.
