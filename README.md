@@ -27,7 +27,6 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
 
 ## Folder Structure
 
-    ```
     .
     ├── data                            # contains val and test videos
     │   └── val                         # predict file after execute test.py
@@ -37,13 +36,11 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
     │   └── predict                     # predict files after execute test.py
     │       └── 00001.csv, 00001.jpg, 00001.mp4, 00001_predict_shot.csv, ...
     └── ultralytics                     # get the pose information
-    ```
 
 ## Reproduce the Result
 
 ### Install Libraries
 
-    ```
     $ conda create -n badminton python=3.7
     $ conda activate badminton
     $ git clone https://nol.cs.nctu.edu.tw:234/lukelin/The_Demo_529.git
@@ -63,15 +60,12 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
     $ git clone https://github.com/ultralytics/ultralytics.git
     $ cd ultralytics/
     $ pip3 install -r requirements.txt
-    ```
 
 ### Execution Steps
 
-    ```
     $ cd The_Demo_529/
     $ python test.py
     $ cd ultralytics/
-    ```
 
 ## Reference
 
