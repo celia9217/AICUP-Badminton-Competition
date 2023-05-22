@@ -26,6 +26,7 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
 </table>
 
 ## Folder Structure
+
     ```
     .
     ├── data                            # contains val and test videos
@@ -41,6 +42,7 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
 ## Reproduce the Result
 
 ### Install Libraries
+
     ```
     $ conda create -n badminton python=3.7
     $ conda activate badminton
@@ -64,6 +66,7 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
     ```
 
 ### Execution Steps
+
     ```
     $ cd The_Demo_529/
     $ python test.py
