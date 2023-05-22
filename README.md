@@ -33,9 +33,15 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
     │       └── 00001, 00002, ...       # val and test folders
     ├── The_Demo_529                    # get the trajectory of badminton
     │   ├── test.py                     # exectuted file
-    │   └── predict                     # predict files after execute test.py
+    │   ├── rand.py                     # exectuted file
+    │   ├── predict                     # predict files after execute test.py
     │       └── 00001.csv, 00001.jpg, 00001.mp4, 00001_predict_shot.csv, ...
+    │   ├── test.csv                    # generated from test.py
+    │   └── test_rand.csv               # generated from rand.py
     └── ultralytics                     # get the pose information
+        ├── pose.py                     # exectuted file
+        └── submit.csv                  # generated from rand.py
+
 
 ## Reproduce the Result
 
@@ -65,6 +71,7 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
 
     $ cd The_Demo_529/
     $ python test.py
+    $ python -W ignore rand.py
     $ cd ultralytics/
     $ wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x-pose-p6.pt
     $ python pose.py
@@ -78,3 +85,4 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
   - [Working with Results](https://docs.ultralytics.com/modes/predict/#working-with-results)
   - [Streaming Source for-loop](https://docs.ultralytics.com/modes/predict/#streaming-source-for-loop)
   - [YOLOv8 pose-estimation model](https://github.com/ultralytics/ultralytics/issues/2028)
+- [How to disable Python warnings?](https://stackoverflow.com/questions/14463277/how-to-disable-python-warnings)
