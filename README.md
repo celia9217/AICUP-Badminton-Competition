@@ -66,8 +66,15 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
     $ cd The_Demo_529/
     $ python test.py
     $ cd ultralytics/
+    $ wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x-pose-p6.pt
+    $ python pose.py
+    
 
 ## Reference
 
 - [The combination of TrackNetV2, Trajectory Smoothing, Event Detection, YoloV3 and Pseudo3D](https://nol.cs.nctu.edu.tw:234/lukelin/The_Demo_529)
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
+  - [Pose](https://docs.ultralytics.com/tasks/pose/)
+  - [Working with Results](https://docs.ultralytics.com/modes/predict/#working-with-results)
+  - [Streaming Source for-loop](https://docs.ultralytics.com/modes/predict/#streaming-source-for-loop)
+  - [YOLOv8 pose-estimation model](https://github.com/ultralytics/ultralytics/issues/2028)
