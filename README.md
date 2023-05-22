@@ -1,6 +1,6 @@
 # Badminton-Competition 
 
-## TEAM_3379
+## TEAM_3379: Celia
 
 ## Introduction
 Global statistics indicate that there are approximately 2.2 billion badminton players worldwide, with over 3 million in Taiwan alone. Badminton ranks second in terms of national popularity. Recently, badminton players have been achieving remarkable performances in international competitions, attracting increased public attention.
@@ -8,7 +8,7 @@ Global statistics indicate that there are approximately 2.2 billion badminton pl
 To analyze badminton skills and tactics, our team has introduced a match shuttlecock recording format and developed a computer vision-assisted program for quick shuttlecock labeling. While various computer-assisted techniques have been employed, manual shuttlecock labeling still requires time and manpower, especially for technical data identification, which necessitates the expertise of badminton professionals. With this competition, we aim to engage machine learning, image processing, and sports science specialists in developing an automatic shuttlecock labeling model with a high recognition rate. This would enable the collection of extensive badminton information and promote the research and application of badminton tactics analysis.
 
 
-## Grade
+## Grades
 
 <table>
   <tr>
@@ -26,13 +26,51 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
 </table>
 
 ## Folder Structure
-
+    ```
+    .
+    ├── data                            # contains val and test videos
+    │   └── val                         # predict file after execute test.py
+    │       └── 00001, 00002, ...       # val and test folders
+    ├── The_Demo_529                    # get the trajectory of badminton
+    │   ├── test.py                     # exectuted file
+    │   └── predict                     # predict files after execute test.py
+    │       └── 00001.csv, 00001.jpg, 00001.mp4, 00001_predict_shot.csv, ...
+    └── ultralytics                     # get the pose information
+    ```
 
 ## Reproduce the Result
 
+### Install Libraries
+    ```
+    $ conda create -n badminton python=3.7
+    $ conda activate badminton
+    $ git clone https://nol.cs.nctu.edu.tw:234/lukelin/The_Demo_529.git
+    $ sudo apt-get install git
+    $ sudo apt-get install python3-pip
+    $ pip3 install pyqt5
+    $ pip3 install pandas
+    $ pip3 install PyMySQL
+    $ pip3 install opencv-python
+    $ pip3 install matplotlib
+    $ pip3 install pytorch
+    $ pip3 install imutils
+    $ pip3 install Pillow
+    $ pip3 install piexif
+    $ pip3 install -U scikit-learn
+    $ pip3 install keras
+    $ git clone https://github.com/ultralytics/ultralytics.git
+    $ cd ultralytics/
+    $ pip3 install -r requirements.txt
+    ```
+
+### Execution Steps
+    ```
+    $ cd The_Demo_529/
+    $ python test.py
+    $ cd ultralytics/
+    ```
 
 ## Reference
 
-- [課程簡報 - AI CUP 2023 春季賽【教電腦看羽球競賽】巡迴課程-new.pdf](https://drive.google.com/file/d/1vd_Wutf8sVeYg8_QkM3sqk7nco-xPQqT/view?usp=sharing)
-- [教電腦看羽球-baseline code](https://drive.google.com/drive/folders/18Yr3Y630aMGvlUfxQArv7rjh5jo2diUA?usp=sharing)
-- [TrackNetV2: N-in-N-out Pytorch version (GitLab)](https://nol.cs.nctu.edu.tw:234/lukelin/TrackNetV2_pytorch.git)
+- [The combination of TrackNetV2, Trajectory Smoothing, Event Detection, YoloV3 and Pseudo3D](https://nol.cs.nctu.edu.tw:234/lukelin/The_Demo_529)
+- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
