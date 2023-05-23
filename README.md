@@ -25,12 +25,18 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
   </tr>
 </table>
 
+## Datasets
+
+- [part1.zip](https://drive.google.com/file/d/1h5qRYnE2scuMGIJUq2SRWW2KLol6wMyh/view?usp=share_link)
+- [part2.zip](https://drive.google.com/file/d/1SLY5YM4Q61N6DmqPuSUNzUANQ0s4mjX5/view?usp=share_link)
+
 ## Folder Structure
 
     .
     ├── data                            # contains val and test videos
-    │   └── val                         # predict file after execute test.py
+    │   ├── val                         # predict file after execute test.py
     │       └── 00001, 00002, ...       # val and test folders
+    │   └── Hit                         # hitframe extracted from test.csv
     ├── The_Demo_529                    # get the trajectory of badminton
     │   ├── test.py                     # exectuted file
     │   ├── rand.py                     # exectuted file
