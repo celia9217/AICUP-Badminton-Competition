@@ -7,7 +7,6 @@ Global statistics indicate that there are approximately 2.2 billion badminton pl
 
 To analyze badminton skills and tactics, our team has introduced a match shuttlecock recording format and developed a computer vision-assisted program for quick shuttlecock labeling. While various computer-assisted techniques have been employed, manual shuttlecock labeling still requires time and manpower, especially for technical data identification, which necessitates the expertise of badminton professionals. With this competition, we aim to engage machine learning, image processing, and sports science specialists in developing an automatic shuttlecock labeling model with a high recognition rate. This would enable the collection of extensive badminton information and promote the research and application of badminton tactics analysis.
 
-
 ## Grades
 
 <table>
@@ -81,7 +80,10 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
     $ cd ultralytics/
     $ wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x-pose-p6.pt
     $ python pose.py
-    
+
+## Demo
+
+https://github.com/celia9217/AICUP-Badminton-Competition/assets/63925539/954f1d66-3fd2-4325-855f-8a8b5fe32134
 
 ## Reference
 
