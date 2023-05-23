@@ -81,13 +81,10 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
     $ wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x-pose-p6.pt
     $ python pose.py
 
+
 ## Demo
 
-
-
-https://github.com/celia9217/AICUP-Badminton-Competition/assets/63925539/508a1018-3fda-413b-9298-9a4058df6de1
-
-
+https://github.com/celia9217/AICUP-Badminton-Competition/assets/63925539/c624a5d1-386f-41db-9f5b-fa56c2f2b71d
 
 https://github.com/celia9217/AICUP-Badminton-Competition/assets/63925539/0477b7ad-19a2-4883-96a6-42fcd83ef158
 
