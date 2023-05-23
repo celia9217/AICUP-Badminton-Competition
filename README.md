@@ -85,7 +85,7 @@ To analyze badminton skills and tactics, our team has introduced a match shuttle
 
 
 
-https://github.com/celia9217/AICUP-Badminton-Competition/assets/63925539/f26a0c99-5c1d-4718-87f9-656e9739647d
+https://github.com/celia9217/AICUP-Badminton-Competition/assets/63925539/508a1018-3fda-413b-9298-9a4058df6de1
 
 
 
